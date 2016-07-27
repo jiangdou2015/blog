@@ -42,7 +42,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            '/Users/apple/PycharmProjects/untitled/templates/'
+             os.path.join(BASE_DIR,'./templates/'),
         ],
         'OPTIONS': {
             'loaders': {
