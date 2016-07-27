@@ -21,6 +21,10 @@ sitemaps =  {
     "blog": BlogSitemap
 }
 
+
+
+
+
 urlpatterns = [
     url(r'^$', blogpostViews.index, name='main'),
     url(r'^blog/(?P<slug>[^\.]+).html', blogpostViews.view_post, name='view_blog_post'),
