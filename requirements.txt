@@ -8,3 +8,4 @@ django-contrib-comments==1.7.1
 pytz==2016.4
 django-pjax==1.4
 django_mobile==0.7
+pymysql==0.6.6
